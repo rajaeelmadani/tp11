@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+route_saluer:
+    path: /saluer
+    controller: App\Controller\EtudiantController::DireBonjour
+route_liste:
+    path: /liste
+    controller: App\Controller\EtudiantController::liste
